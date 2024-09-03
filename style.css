@@ -1,0 +1,90 @@
+body {
+    font-size: 29pt;
+    background-color: aliceblue;
+}
+
+#alt-lang {
+  text-align: center;
+  color: gray;
+}
+
+#fb-logo {
+  margin: 150px 0 160px 0;
+  height: 160px;
+  border-radius: 90px
+}
+
+#div-fb-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#div-login-input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#user-id-input {
+  width: 865px;
+  height: 85px;
+  font-size: 50px;
+  text-align: left;
+  margin: 60px 0 0 0;
+  padding: 40px 0 40px 40px;
+  border: 3px solid lightgray;
+  border-radius: 40px;
+}
+
+#user-pw-input {
+  width: 865px;
+  height: 85px;
+  font-size: 50px;
+  text-align: left;
+  margin: 30px 0 0 0;
+  padding: 40px 0 40px 40px;
+  border: 3px solid lightgray;
+  border-radius: 40px;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  width: 865px;
+  height: 85px;
+  border: none;
+  background-color: aliceblue;
+  font-size: 50px;
+}
+
+#login-button {
+  height: 120px;
+  color: white;
+  background-color: #4E42E1E8;
+  border-radius: 60px;
+  margin: 40px 0 0 0;
+  font-weight: light;
+}
+
+#forgotten-button {
+  color: dimgray;
+  margin: 20px 0 0 0;
+}
+
+#create-new-button {
+  border: 3px solid blueviolet;
+  border-radius: 55px;
+  margin: 350px 0 0 0;
+  height: 115px;
+  color: blueviolet;
+}
+
+#end-card {
+  display: flex;
+  justify-content: center;
+}
